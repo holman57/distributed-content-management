@@ -1,6 +1,33 @@
 # Distributed Content Management
 
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white" alt="Python 3.10+"></a>
+  <a href="#8-quickstart--usage"><img src="https://img.shields.io/badge/Tests-13%20Passing-brightgreen.svg" alt="Tests"></a>
+  <a href="#1-executive-summary-the-higher-order-architecture"><img src="https://img.shields.io/badge/Architecture-System%20of%20Systems-6f42c1.svg" alt="Architecture"></a>
+  <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/holman57/distributed-content-management/stargazers"><img src="https://img.shields.io/github/stars/holman57/distributed-content-management?style=social" alt="GitHub Stars"></a>
+</p>
+
 An autonomous, data-driven meta-system for discovering profitable niches, spawning dedicated content generation pipelines, and dynamically governing multiple monetization streams through their full lifecycle.
+
+> [!TIP]
+> **Why this matters**: Rather than building manual content sites one at a time, this framework treats content generation as an autonomous **System of Systems**—algorithmically finding buyer-intent gaps, deploying encapsulated pipeline workers, and making data-backed decisions to scale winners and sunset decaying niches.
+
+---
+
+## Table of Contents
+
+- [1. Executive Summary: The Higher-Order Architecture](#1-executive-summary-the-higher-order-architecture)
+- [2. Higher-Order Niche Lifecycle State Machine](#2-higher-order-niche-lifecycle-state-machine)
+- [3. Autonomous Market Research Component](#3-autonomous-market-research-component)
+- [4. Multi-Stream Monetization Architecture](#4-multi-stream-monetization-architecture)
+- [5. Data-Driven Spin-Up & Wind-Down Governance Matrix](#5-data-driven-spin-up--wind-down-governance-matrix)
+- [6. Encapsulated Content Pipeline & Lifecycle](#6-encapsulated-content-pipeline--lifecycle-inside-each-spawned-subsystem)
+- [7. Repository Codebase Structure](#7-repository-codebase-structure)
+- [8. Quickstart & Usage](#8-quickstart--usage)
+- [9. Contributing](#9-contributing)
+- [10. License](#10-license)
 
 ---
 
@@ -311,6 +338,27 @@ print(f"Blended Portfolio ROI: +{summary['blended_roi_pct']}%")
 
 ---
 
-## 9. License
+## 9. Contributing
 
-[MIT](LICENSE)
+Contributions, feature proposals, and bug reports are welcome!
+
+1. **Fork the Repository** (`gh repo fork holman57/distributed-content-management` or via GitHub web UI).
+2. **Create a Feature Branch** (`git checkout -b feature/emerging-channel-adapter`).
+3. **Write Tests & Implement** (Ensure `python -m unittest discover tests` passes with 100% coverage).
+4. **Commit Changes** (`git commit -m 'Add support for programmatic Substack sync'`).
+5. **Push & Open a Pull Request** against `main`.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for full style conventions and architectural design patterns.
+
+---
+
+## 10. Show Your Support
+
+If you find this autonomous architecture useful or inspiring, please consider giving it a **⭐ Star** and **🍴 Forking** the repository! It helps other developers and creators discover the framework.
+
+---
+
+## 11. License
+
+This project is licensed under the [MIT License](LICENSE).
+
