@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distributed-content-management"
+version = "0.2.0"
+description = "Autonomous System of Spawning Systems for Multi-Niche Content Pipelines and Monetization Governance"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Distributed Content Management Team" }
+]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
