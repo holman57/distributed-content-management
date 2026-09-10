@@ -1,0 +1,18 @@
+{
+  "name": "distributed-content-management",
+  "version": "0.2.0",
+  "owner": "holman57",
+  "description": "Multi-niche automated content generation pipeline, publisher connectors, and monetization governance.",
+  "tech_stack": {
+    "engine": "Python (pyproject.toml, rich, click, asyncio)",
+    "modules": "src/distributed_content/ (decision_engine, market_research, pipeline, orchestrator, publisher_connectors)"
+  },
+  "test_command": "python -m unittest discover tests",
+  "features": [
+    "Multi-platform publisher connectors (WordPress REST API, Substack newsletter format, Markdown SSG)",
+    "Automated SEO frontmatter and monetization CTA injection",
+    "Repository star and audience growth telemetry tracking",
+    "Multi-niche content generation and profitability pipeline"
+  ],
+  "active_issues": [1, 3]
+}
